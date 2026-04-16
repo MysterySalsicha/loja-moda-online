@@ -1,71 +1,43 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=1a2540&height=160&section=header&text=Loja%20de%20Moda%20Online&fontSize=40&fontColor=a8b8d0&fontAlignY=45" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=160&section=header&text=Loja%20Moda%20Online&fontSize=40&fontColor=ffffff&fontAlignY=45" />
 </div>
 
 <div align="center">
 
-[![Deploy](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel)](https://andressa-modas.vercel.app)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-**E-commerce completo de moda feminina com catálogo dinâmico, carrinho e checkout.**
-
-[▶ Ver Demo ao Vivo](https://andressa-modas.vercel.app)
+**E-commerce completo com catálogo dinâmico e performance otimizada.**
 
 </div>
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Destaques
 
-- 🛍️ **Catálogo de produtos** com filtros por categoria e tamanho
-- 🛒 **Carrinho de compras** com persistência de estado
-- 🔍 **Busca em tempo real** de produtos
-- 📱 **Design responsivo** — funciona em celular e desktop
-- ⚡ **Carregamento rápido** com Next.js e SSR
-- 🎨 **UI moderna** com animações fluídas
+- ⚡ **Next.js App Router** — Renderização de alta performance (SSR/SSG).
+- 🛒 **Carrinho Dinâmico** — Gerenciamento de estado fluido e persistente.
+- 🎨 **Design Sofisticado** — UI moderna construída com Radix UI e Tailwind.
+- 📱 **Totalmente Responsivo** — Experiência de compra impecável no mobile.
+- 🔍 **SEO Otimizado** — Focado em indexação e visibilidade de produtos.
 
-## 🛠️ Stack Técnica
+## 💡 Por que este projeto?
 
-| Camada | Tecnologia |
-|--------|-----------|
-| Frontend | Next.js 14 + TypeScript |
-| Estilização | Tailwind CSS |
-| Estado | React Hooks / Context API |
-| Deploy | Vercel |
+Este projeto representa um MVP (Mínimo Produto Viável) de uma solução real de mercado. Ele demonstra o domínio de tecnologias modernas de Front-end para criar aplicações escaláveis, focando em segurança de tipos com TypeScript e otimização de entrega de conteúdo para o usuário final.
 
-## 🚀 Rodando Localmente
+## 🛠️ Tecnologias
 
-```bash
-# Clone o repositório
-git clone https://github.com/MysterySalsicha/loja-moda-online.git
+- **Next.js / React** — Core do sistema e renderização.
+- **TypeScript** — Tipagem estrita de produtos, categorias e carrinho.
+- **Tailwind CSS / Radix UI** — Estilização e acessibilidade (WAI-ARIA).
+- **Lucide React** — Conjunto de ícones consistentes.
 
-# Instale as dependências
-cd loja-moda-online
-npm install
+## 🚀 Roadmap (Onde este projeto pode chegar)
 
-# Rode em desenvolvimento
-npm run dev
-```
-
-Acesse `http://localhost:3000`
-
-## 📁 Estrutura do Projeto
-
-```
-├── src/
-│   ├── app/           # Rotas Next.js (App Router)
-│   ├── components/    # Componentes reutilizáveis
-│   ├── hooks/         # Custom hooks
-│   └── types/         # Tipos TypeScript
-├── public/            # Assets estáticos
-└── package.json
-```
-
-## 📸 Screenshots
-
-> *Acesse o [demo ao vivo](https://andressa-modas.vercel.app) para ver o projeto em funcionamento.*
+- [ ] **Checkout Stripe:** Integração real para pagamentos online.
+- [ ] **Admin Dashboard:** Painel para o lojista gerenciar estoque e vendas.
+- [ ] **Auth:** Área do cliente para rastreio de pedidos.
 
 ---
 
